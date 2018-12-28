@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+
+.mi-tiny {
+  font-size: 8px;
+}
+
+.mi-small {
+  font-size: 16px;
+}
+
+.mi-base {
+  font-size: 24px;
+}
+
+.mi-big {
+  font-size: 40px;
+}
+
+.mi-huge {
+  font-size: 64px;
+}
+
+.mi-gigantic {
+  font-size: 104px;
+}
+
+.icon-branded {
+  color: $brand-primary;
+}
+
+.icon-high-emphasis {
+  color: $color-type-high-emphasis;
+}
+
+.icon-medium-emphasis {
+  color: $color-type-medium-emphasis;
+}
+
+.icon-low-emphasis {
+  color: $color-type-low-emphasis;
+}

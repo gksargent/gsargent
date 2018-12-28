@@ -1,0 +1,21 @@
+// Platform Colors
+$platform-base: lightgray;
+$platform-light: gainsboro;
+$platform-lighter: whitesmoke;
+$platform-lightest: white;
+$platform-dark: silver;
+$platform-darker: darkgray;
+$platform-darkest: gray;
+$platform-visibility: HSLA(0, 100%, 50%, 10%);
+$platform-transparent: HSLA(0, 0%, 0%, 0%);
+
+$inverted-type: invert($platform-base);
+$color-type-high-emphasis: $inverted-type;
+$color-type-medium-emphasis: lighten($inverted-type, 10%);
+$color-type-low-emphasis: lighten($inverted-type, 55%);
+
+// Branded Colors
+$brand-primary: tomato;
+
+
+// User Colors

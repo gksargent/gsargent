@@ -1,0 +1,12 @@
+footer {
+  background-color: $platform-visibility;
+  box-sizing: border-box;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  padding: $branded-spacing-big $branded-spacing-base;
+
+  p {
+    @include caption;
+  }
+}

@@ -1,0 +1,16 @@
+.color-swatch-container {
+  background-color: $platform-visibility;
+}
+
+.color-swatch-label {
+  @include caption;
+}
+
+.color-swatch-large {
+  background-color: $platform-visibility;
+  border-radius: $radius-sharp;
+  box-sizing: border-box;
+  display: block;
+  height: 50px;
+  width: 75px;
+}

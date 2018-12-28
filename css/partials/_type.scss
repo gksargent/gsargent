@@ -1,0 +1,63 @@
+// Platform Type
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700');
+
+$type-platform: 'Work Sans', sans-serif;
+$type-branded: 'Work Sans', sans-serif;
+
+@mixin body1 {
+  color: $color-type-high-emphasis;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 16px;
+}
+
+@mixin body2 {
+  color: $color-type-medium-emphasis;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: $branded-spacing-tiny 0;
+}
+
+@mixin button {
+  color: $color-type-medium-emphasis;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  margin: 0 16px;
+}
+
+@mixin caption {
+  color: $color-type-medium-emphasis;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  margin: 8px 0;
+}
+
+@mixin largeHeading {
+  color: $color-type-high-emphasis;
+  font-size: 12vw;
+  font-family: $type-branded;
+  font-weight: 600;
+  line-height: 16vw;
+  margin: $branded-spacing-base 0;
+}
+
+@mixin overline {
+  color: $color-type-medium-emphasis;
+  font-size: 10px;
+  font-family: $type-platform;
+  letter-spacing: 0.6px;
+  font-weight: 600;
+  line-height: 16px;
+  margin: 8px 16px;
+  text-transform: uppercase;
+}
+
+
+
+// Branded Type
+
+// User Type

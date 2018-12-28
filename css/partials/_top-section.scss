@@ -1,0 +1,17 @@
+.standard-top-section {
+  background-color: $platform-lighter;
+  box-sizing: border-box;
+  padding: $branded-spacing-base $branded-spacing-base;
+
+  h1 {
+    background-color: $platform-visibility;
+    box-sizing: border-box;
+
+    @include largeHeading;
+  }
+
+  p {
+    background-color: $platform-visibility;
+    @include body2;
+  }
+}

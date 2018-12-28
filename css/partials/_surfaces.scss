@@ -1,0 +1,6 @@
+.container-space-between {
+  background-color: $platform-visibility;
+  display: flex;
+  justify-content: space-between;
+  margin: $spacing-tiny 0;
+}
